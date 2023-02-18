@@ -1,0 +1,35 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-right: 30px;
+}
+
+.banner {
+    background-color: rgb(29, 222, 148);
+    color: #681d46;
+    padding-top: 100px;
+    padding-left: 220px;
+    padding-bottom: 40px;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.sub-text {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.advice {
+    font-size: 12px;
+}
+
+.carousel slide H5{
+    font-weight: bold;
+}
