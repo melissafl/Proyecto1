@@ -1,35 +1,128 @@
 .navbar-nav {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-li{
-    margin-right: 30px;
+
+
+li {
+  margin-right: 30px;
 }
 
 .banner {
-    background-color: rgb(29, 222, 148);
-    color: #681d46;
-    padding-top: 100px;
-    padding-left: 220px;
-    padding-bottom: 40px;
+  background-color: rgb(29, 222, 148);
+  color: #681d46;
+  padding-top: 100px;
+  padding-left: 220px;
+  padding-bottom: 40px;
 }
 
 .main-text {
-    font-weight: bold;
-    font-size: 36px;
-    margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
 .sub-text {
-    font-size: 26px;
-    margin-bottom: 30px;
+  font-size: 26px;
+  margin-bottom: 30px;
 }
 
 .advice {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-.carousel slide H5{
-    font-weight: bold;
+.jumbotron {
+  height: 800px;
+  background-image: url(../assets/images/background.jpg);
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+.jumbotron h1 {
+    padding-top: 100px;
+    padding-left: 1030px;
+    color: palevioletred;
+    font-family: 'Brush Script MT';
+    font: 100px;
+    font-weight: 600;
+}
+
+.boton {
+    padding-top: 500px;
+    padding-left: 1000px;
+}
+
+.registro {
+    border-radius: 2px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background-color: rgb(99, 98, 104);
+    border: #fff;
+    font-size: 20px;
+}
+.email {
+    height: 40px;
+    width: 500px;
+    padding: 15px;
+    border-color: #f8d2df;
+    background-color: #f8d2df;
+    color: #3a3939;
+}
+.cards1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-body {
+    background-color: #777777;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-title {
+    color:#fff;
+    font-weight: 100;
+    font-size: 26px;
+    font-family: 'Brush Script MT';
+}
+
+.body {
+    background-color: blueviolet;
+}
+
+.fot {
+    background-color: pink ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 20vh;
+    padding-top: 20px;
+
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.caja h5 {
+    font-size: 14px;
+    color: palevioletred;
+  
+}
+
+.caja h4 {
+    color: palevioletred;
+    font-size: 30px;
+    font-family: 'Brush Script MT';
+   
+}
+
