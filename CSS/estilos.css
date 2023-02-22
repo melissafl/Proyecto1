@@ -53,6 +53,14 @@ li {
     font-weight: 600;
 }
 
+.jumbotron p {
+  padding-top: 500px;
+  padding-left: 1030px;
+  color: palevioletred;
+  font-family: sans-serif;
+  font: 80px;
+}
+
 .boton {
     padding-top: 500px;
     padding-left: 1000px;
